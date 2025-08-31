@@ -12,6 +12,10 @@ public class Vehicle {
         this.year_of_manufacture = year_of_manufacture;
     }
 
+    public Vehicle() {
+
+    }
+
     public String getManufacturer() {
         return manufacturer;
     }
